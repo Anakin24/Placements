@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Calculate the start time: 1st April 2024, 12am
-  let startTime = new Date('March 31, 2024 00:00:00').getTime() / 1000;
+  let startTime = new Date('April 1, 2024 00:00:00').getTime() / 1000;
 
   // Calculate the end time: 1st April 2025, 12am
-  let endTime = new Date('April 1, 2025 00:00:00').getTime() / 1000;
+  let endTime = new Date('July 1, 2024 00:00:00').getTime() / 1000;
 
   // Current time in Unix timestamp
   let now = Date.now() / 1000;
